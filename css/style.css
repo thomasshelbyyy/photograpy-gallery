@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.gallery-container {
+    width: 900px;
+    margin: auto;
+    box-shadow: 12px 10px 100px -50px black, -12px 0 100px -50px black;
+    margin-bottom: 40px;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100vh;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav h1 {
+    font-size: 2.4rem;
+}
+
+.nav p {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #968888;
+}
+
+.hero {
+    background-image: url(../img/bg.jfif);
+    background-size: cover;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    font-size: 1.2rem;
+    border: 1px solid #cccccc;
+    display: flex;
+    border-radius: 50px;
+    margin: 30px auto;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: #cccccc;
+}
+
+.work {
+    text-align: center;
+}
+.work-header {
+    background-color: #333333;
+    font-size: 1.2rem;
+    color: azure;
+    padding: 1rem 0;
+}
+
+.work-header p {
+    border-left: 1px dotted azure;
+    border-right: 1px dotted azure;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.works img {
+    width: 100%;
+}
+
+.work-desc {
+    padding: 30px 0;
+}
+
+.work-title {
+    margin-bottom: 15px;
+}
+
+.contact {
+    text-align: center;
+    margin: 60px auto;
+    color: #333333;
+}
+
+.contact p {
+    margin-top: 15px;
+}
